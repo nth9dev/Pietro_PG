@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', serif;
+    
+    
+}
+
+html,body {
+    height: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+body {
+    background-image: url(../img/foto22cul-301-labaki-d3.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.scrollTop {
+    outline: none;
+    border: 0;
+
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    box-shadow: 0 1px 6px 2px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease
+
+}
+
+.scrollTop.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.scrollTop img {
+    width: 100%;
+    
+}
+
+header {
+    background-color: #eb0c2d;
+}
+
+header .logo h2{
+    color: #ffffff;
+    cursor: pointer;
+    padding: 2px;
+    
+}
+
+header .logo h2:hover{
+    color: rgb(184, 183, 183);
+    cursor: pointer;
+    
+}
+
+#linha {
+    padding-bottom: 0.0.0.0.1%;
+    padding: 0.0.0.0.0.0.0.0.1px;
+    width: 100%;
+    border-bottom: 4px solid #a00505
+  }
+
+header .container {
+    padding: 30px;
+    
+}
+
+
+.container-2 {
+    padding-top: 20px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.container-3 .post-1  {
+    width: 660px;
+    
+}
+
+.post-undine {
+    
+        padding: 20px;
+        margin-bottom: 10px;
+        background-color: rgb(211, 211, 211);
+    
+}
+
+
+.posts {
+    
+    width: 660px;
+    float: left;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(211, 211, 211);
+}
+
+
+.data-post {
+    font-size: 0.3%;
+    margin-bottom: 1px;
+    display: block;
+}
+
+.img {
+    padding: 10px;
+    
+}
+
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+
+.barra-lateral {
+    width: 240px;
+    
+    float: right;
+}
+
+.conteudo-lateral {
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3 {
+    background-color: #eb0c2d;
+    color: white;
+    padding: 5px;
+}
+
+.post-destaque {
+    font-size: 0.8rem;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.post-destaque :last-child {
+    border: none;
+}
+
+
+
+
+
+.footer{
+    clear: both;
+    background-color: #eb0c2d;
+    padding: 15px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+       
+}
+
+.footer a{
+    color: white;
+}
+
+
+.btn-link {
+    border-radius: 3px;
+    width: 160px;
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(235, 113, 14);
+}
+
+.btn-link:hover {
+    box-shadow: 2px 2px 2px #000000;
+}
+
+.btn-link-2 {
+    border-radius: 3px;
+    width: 160px;
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(63, 124, 255);
+}
+
+.btn-link-2:hover {
+    box-shadow: 2px 2px 2px #000000;
+}
+
+
+
+
+
+header .menu ul {
+    list-style-type: none;
+    padding-top: 0.2px;
+    
+}
+
+header .menu ul li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 5px;
+    
+    
+}
+
+header .menu ul li:not(.not) {
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+
+header .menu ul li:not(.not):hover {
+    background-color: rgba(201, 201, 201, 0.411);
+    border: 2px solid #ffffff
+    
+}
+
+header .menu ul li:not(.not):hover a{
+    color: white;
+    
+}
+
+
+header .menu ul li input[type=text] {
+    padding: 5px 2%;
+    width: 100px;
+    border-radius: 9px;
+    border: 0.5px solid rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+header .menu ul li input[type=text]:focus{
+    outline: 0;
+    border: 0.5px solid #ffffff
+}
+
+header .menu ul li i {
+     border: 2px solid rgb(255, 255, 255);
+    width: 27px;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+
+header .menu ul li i:hover {
+    background-color: #99999985;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    
+
+}
+
+
+header,
+ .menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+section.box-captura {
+    
+    background-color: #ffffff;
+    height: 180px;
+   
+}
+
+
+.post h1{
+    color: #eb0c2d;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
+    
+
+
+
+
+
+
+     
+
+
