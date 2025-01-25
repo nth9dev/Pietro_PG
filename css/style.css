@@ -143,6 +143,10 @@ header .container {
     background-color: rgb(211, 211, 211);
 }
 
+.letter-css {
+    padding: 4px;
+}
+
 
 .data-post {
     font-size: 0.3%;
